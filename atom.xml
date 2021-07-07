@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-07T04:27:03.498Z</updated>
+  <updated>2021-07-07T04:43:59.423Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -18,21 +18,21 @@
   
   <entry>
     <title>Laravelチートシート</title>
-    <link href="http://example.com/2021/07/07/Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
-    <id>http://example.com/2021/07/07/Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
+    <link href="http://example.com/2021/20210706_Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
+    <id>http://example.com/2021/20210706_Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-07T11:00:00.000Z</published>
-    <updated>2021-07-07T04:27:03.498Z</updated>
+    <updated>2021-07-07T04:43:59.423Z</updated>
     
-    <content type="html"><![CDATA[<h2><span id="概要">概要</span></h2><h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E5%89%8D%E6%8F%90">前提</a></li><li><a href="#artisan%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">artisanコマンド</a><ul><li><a href="#make">make</a></li><li><a href="#migrate">migrate</a></li><li><a href="#db">db</a></li><li><a href="#clear">clear</a></li></ul></li></ul><!-- tocstop --><h2><span id="前提">前提</span></h2><p>Laravel8系</p><h2><span id="artisanコマンド">artisanコマンド</span></h2><h3><span id="make">make</span></h3><p>migration作成</p><pre><code class="bash">php artisan make:migration create_[テーブル名]_table</code></pre><p>メール作成</p><pre><code class="bash">php artisan make:mail [クラス名]</code></pre><p>middleware作成</p><pre><code class="bash">php artisan make:middleware SetUserCookie</code></pre><h3><span id="migrate">migrate</span></h3><p>マイグレーション実行</p><pre><code class="bash">php artisan migrate</code></pre><p>マイグレーションロールバック</p><pre><code class="bash">php artisan migrate:rollback</code></pre><h3><span id="db">db</span></h3><p>シード実行</p><pre><code class="bash">php artisan db:seed</code></pre><h3><span id="clear">clear</span></h3><p>キャッシュクリア</p><pre><code class="bash">php artisan cache:clearphp artisan config:clear</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E5%89%8D%E6%8F%90">前提</a></li><li><a href="#artisan%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">artisanコマンド</a><ul><li><a href="#make">make</a></li><li><a href="#migrate">migrate</a></li><li><a href="#db">db</a></li><li><a href="#clear">clear</a></li></ul></li></ul><!-- tocstop --><h2><span id="前提">前提</span></h2><p>Laravel8系</p><h2><span id="artisanコマンド">artisanコマンド</span></h2><h3><span id="make">make</span></h3><p>migration作成</p><pre><code class="bash">php artisan make:migration create_[テーブル名]_table</code></pre><p>メール作成</p><pre><code class="bash">php artisan make:mail [クラス名]</code></pre><p>middleware作成</p><pre><code class="bash">php artisan make:middleware SetUserCookie</code></pre><h3><span id="migrate">migrate</span></h3><p>マイグレーション実行</p><pre><code class="bash">php artisan migrate</code></pre><p>マイグレーションロールバック</p><pre><code class="bash">php artisan migrate:rollback</code></pre><h3><span id="db">db</span></h3><p>シード実行</p><pre><code class="bash">php artisan db:seed</code></pre><h3><span id="clear">clear</span></h3><p>キャッシュクリア</p><pre><code class="bash">php artisan cache:clearphp artisan config:clear</code></pre>]]></content>
     
     
       
       
-    <summary type="html">&lt;h2&gt;&lt;span id=&quot;概要&quot;&gt;概要&lt;/span&gt;&lt;/h2&gt;&lt;h2&gt;&lt;span id=&quot;目次&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;&lt;!-- toc --&gt;
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;目次&quot;&gt;目次&lt;/span&gt;&lt;/h2&gt;&lt;!-- toc --&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#%E5%89%8D%E6%8F%90&quot;&gt;前提&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href</summary>
+&lt;li&gt;&lt;a href=&quot;#artisan%E3%82%B3%E3%83%9E%E3%</summary>
       
     
     
@@ -48,10 +48,10 @@
   
   <entry>
     <title>FIRST CDJ MIX</title>
-    <link href="http://example.com/2021/07/07/mix001/"/>
-    <id>http://example.com/2021/07/07/mix001/</id>
+    <link href="http://example.com/2021/20210707_mix001/"/>
+    <id>http://example.com/2021/20210707_mix001/</id>
     <published>2021-07-07T01:42:12.000Z</published>
-    <updated>2021-07-07T02:59:36.709Z</updated>
+    <updated>2021-07-07T04:40:35.737Z</updated>
     
     <content type="html"><![CDATA[<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Ftempa%2Ffirst-cd-mix%2F" frameborder="0"></iframe><p>過去作</p>]]></content>
     
@@ -73,16 +73,16 @@
   </entry>
   
   <entry>
-    <title>hexo書き方</title>
-    <link href="http://example.com/2021/07/06/hexo%E6%9B%B8%E3%81%8D%E6%96%B9/"/>
-    <id>http://example.com/2021/07/06/hexo%E6%9B%B8%E3%81%8D%E6%96%B9/</id>
+    <title>hexo使い方</title>
+    <link href="http://example.com/2021/20210707_hexo%E6%9B%B8%E3%81%8D%E6%96%B9/"/>
+    <id>http://example.com/2021/20210707_hexo%E6%9B%B8%E3%81%8D%E6%96%B9/</id>
     <published>2021-07-06T12:00:00.000Z</published>
-    <updated>2021-07-07T04:19:05.312Z</updated>
+    <updated>2021-07-07T04:40:25.668Z</updated>
     
-    <content type="html"><![CDATA[<h2><span id="概要">概要</span></h2><p>本ブログで利用しているテンプレートエンジン <strong>hexo</strong> の書き方メモ</p><span id="more"></span><h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#%E8%A8%98%E4%BA%8B">記事</a><ul><li><a href="#%E3%83%98%E3%83%83%E3%83%80%E3%83%BC">ヘッダー</a></li><li><a href="#%E5%86%85%E5%AE%B9">内容</a></li></ul></li><li><a href="#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3">プラグイン</a><ul><li><a href="#hexo-toc">hexo-toc</a></li></ul></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code>hexo cleanhexo generate</code></pre><p>サーバー起動</p><pre><code>hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>hexo deploy -g</code></pre><p>記事作成</p><pre><code>hexo new &lt;title&gt;</code></pre><h2><span id="記事">記事</span></h2><h3><span id="ヘッダー">ヘッダー</span></h3><pre><code>---title: タイトルdate: 2021-07-06 21:00:00categories:     - [カテゴリ]tags:     - [タグ]top: 1---</code></pre><table><thead><tr><th align="left">論理名</th><th align="left">内容</th><th align="left">備考</th></tr></thead><tbody><tr><td align="left">title</td><td align="left">記事のタイトル</td><td align="left"></td></tr><tr><td align="left">date</td><td align="left">記事のタイトル</td><td align="left">存在しない場合下書きになる</td></tr><tr><td align="left">categories</td><td align="left">カテゴリ</td><td align="left"></td></tr><tr><td align="left">tags</td><td align="left">タグ</td><td align="left"></td></tr><tr><td align="left">top</td><td align="left">トップ固定</td><td align="left"></td></tr></tbody></table><h3><span id="内容">内容</span></h3><p>直前の記述が概要として扱われる</p><pre><code>&lt;!-- more --&gt;</code></pre><h2><span id="プラグイン">プラグイン</span></h2><h3><span id="hexo-toc">hexo-toc</span></h3><p>h2-h6タグを抽出し目次を自動生成してくれる</p><p>導入</p><pre><code>npm install hexo-toc --save</code></pre><p>利用</p><pre><code class="bash"></code></pre><h2><span id="makefile">Makefile</span></h2><p>便利なコマンドまとめました</p><pre><code>vi Makefile</code></pre><pre><code>up:    hexo server --draftclean:    hexo clean    hexo generatedeploy:    hexo deploy -g</code></pre><p>サーバー起動</p><pre><code>$ make up</code></pre><p>クリア</p><pre><code>$ make clean</code></pre><p>デプロイ</p><pre><code>$ make deploy</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2><span id="概要">概要</span></h2><p>本ブログで利用しているテンプレートエンジン <strong>hexo</strong> の使い方メモ</p><span id="more"></span><h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#%E8%A8%98%E4%BA%8B">記事</a><ul><li><a href="#%E3%83%98%E3%83%83%E3%83%80%E3%83%BC">ヘッダー</a></li><li><a href="#%E5%86%85%E5%AE%B9">内容</a></li></ul></li><li><a href="#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3">プラグイン</a><ul><li><a href="#hexo-toc">hexo-toc</a></li></ul></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code class="bash">hexo cleanhexo generate</code></pre><p>サーバー起動</p><pre><code class="bash">hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code class="bash">hexo deploy -g</code></pre><p>記事作成</p><pre><code class="bash">hexo new &lt;title&gt;</code></pre><h2><span id="記事">記事</span></h2><h3><span id="ヘッダー">ヘッダー</span></h3><pre><code class="bash">---title: タイトルdate: 2021-07-06 21:00:00categories:     - [カテゴリ]tags:     - [タグ]top: 1---</code></pre><table><thead><tr><th align="left">論理名</th><th align="left">内容</th><th align="left">備考</th></tr></thead><tbody><tr><td align="left">title</td><td align="left">記事のタイトル</td><td align="left"></td></tr><tr><td align="left">date</td><td align="left">記事のタイトル</td><td align="left">存在しない場合下書きになる</td></tr><tr><td align="left">categories</td><td align="left">カテゴリ</td><td align="left"></td></tr><tr><td align="left">tags</td><td align="left">タグ</td><td align="left"></td></tr><tr><td align="left">top</td><td align="left">トップ固定</td><td align="left"></td></tr></tbody></table><h3><span id="内容">内容</span></h3><p>直前の記述が概要として扱われる</p><pre><code class="bash">&lt;!-- more --&gt;</code></pre><h2><span id="プラグイン">プラグイン</span></h2><h3><span id="hexo-toc">hexo-toc</span></h3><p>h2-h6タグを抽出し目次を自動生成してくれる</p><p>導入</p><pre><code class="bash">npm install hexo-toc --save</code></pre><p>利用</p><pre><code class="bash"></code></pre><h2><span id="makefile">Makefile</span></h2><p>便利なコマンドまとめました</p><pre><code class="bash">vi Makefile</code></pre><pre><code class="bash">up:    hexo server --draftclean:    hexo clean    hexo generatedeploy:    hexo deploy -g</code></pre><p>サーバー起動</p><pre><code>$ make up</code></pre><p>クリア</p><pre><code>$ make clean</code></pre><p>デプロイ</p><pre><code>$ make deploy</code></pre>]]></content>
     
     
-    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a href=&quot;#概要&quot; class=&quot;headerlink&quot; title=&quot;概要&quot;&gt;&lt;/a&gt;概要&lt;/h2&gt;&lt;p&gt;本ブログで利用しているテンプレートエンジン &lt;strong&gt;hexo&lt;/strong&gt; の書き方メモ&lt;/p&gt;</summary>
+    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a href=&quot;#概要&quot; class=&quot;headerlink&quot; title=&quot;概要&quot;&gt;&lt;/a&gt;概要&lt;/h2&gt;&lt;p&gt;本ブログで利用しているテンプレートエンジン &lt;strong&gt;hexo&lt;/strong&gt; の使い方メモ&lt;/p&gt;</summary>
     
     
     
@@ -97,12 +97,12 @@
   
   <entry>
     <title>hexoチートシート</title>
-    <link href="http://example.com/2021/07/06/hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
-    <id>http://example.com/2021/07/06/hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
+    <link href="http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
+    <id>http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-06T11:00:00.000Z</published>
-    <updated>2021-07-07T02:00:43.529Z</updated>
+    <updated>2021-07-07T04:44:19.138Z</updated>
     
-    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code>hexo clean</code></pre><p>ファイル生成</p><pre><code>hexo generate</code></pre><p>サーバー起動</p><pre><code>hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>hexo deploy -g</code></pre><p>記事作成</p><pre><code>hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code>make up</code></pre><p>クリア</p><pre><code>make clean</code></pre><p>デプロイ</p><pre><code>make deploy</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code class="bash">hexo clean</code></pre><p>ファイル生成</p><pre><code class="bash">hexo generate</code></pre><p>サーバー起動</p><pre><code class="bash">hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code class="bash">hexo deploy -g</code></pre><p>記事作成</p><pre><code class="bash">hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code class="bash">make up</code></pre><p>クリア</p><pre><code class="bash">make clean</code></pre><p>デプロイ</p><pre><code class="bash">make deploy</code></pre>]]></content>
     
     
       
