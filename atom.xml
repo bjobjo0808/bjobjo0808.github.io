@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-06T13:53:17.745Z</updated>
+  <updated>2021-07-07T00:12:48.518Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,16 +21,12 @@
     <link href="http://example.com/2021/07/06/hexo%E6%9B%B8%E3%81%8D%E6%96%B9/"/>
     <id>http://example.com/2021/07/06/hexo%E6%9B%B8%E3%81%8D%E6%96%B9/</id>
     <published>2021-07-06T12:00:00.000Z</published>
-    <updated>2021-07-06T13:53:17.745Z</updated>
+    <updated>2021-07-07T00:12:48.518Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><p>本ブログで利用しているテンプレートエンジン <code>hexo</code> の書き方メモ</p><h2 id="コマンド"><a href="#コマンド" class="headerlink" title="コマンド"></a>コマンド</h2><p>クリーン</p><pre><code>$ hexo clean$ hexo generate</code></pre><p>サーバー起動</p><pre><code>$ hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>$ hexo deploy -g</code></pre><h2 id="記事メタ"><a href="#記事メタ" class="headerlink" title="記事メタ"></a>記事メタ</h2><pre><code>---title: タイトルdate: 2021-07-06 21:00:00categories:     - [hexo]tags:     - [hexo]top: 1---</code></pre><h2 id="記事"><a href="#記事" class="headerlink" title="記事"></a>記事</h2>]]></content>
+    <content type="html"><![CDATA[<h2><span id="概要">概要</span></h2><p>本ブログで利用しているテンプレートエンジン <strong>hexo</strong> の書き方メモ</p><span id="more"></span><h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#%E8%A8%98%E4%BA%8B">記事</a><ul><li><a href="#%E3%83%98%E3%83%83%E3%83%80%E3%83%BC">ヘッダー</a></li><li><a href="#%E5%86%85%E5%AE%B9">内容</a></li></ul></li><li><a href="#%E3%83%97%E3%83%A9%E3%82%B0%E3%82%A4%E3%83%B3">プラグイン</a><ul><li><a href="#hexo-toc">hexo-toc</a></li></ul></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code>$ hexo clean$ hexo generate</code></pre><p>サーバー起動</p><pre><code>$ hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>$ hexo deploy -g</code></pre><p>記事作成</p><pre><code>hexo new &lt;title&gt;</code></pre><h2><span id="記事">記事</span></h2><h3><span id="ヘッダー">ヘッダー</span></h3><pre><code>---title: タイトルdate: 2021-07-06 21:00:00categories:     - [カテゴリ]tags:     - [タグ]top: 1---</code></pre><table><thead><tr><th align="left">論理名</th><th align="left">内容</th><th align="left">備考</th></tr></thead><tbody><tr><td align="left">title</td><td align="left">記事のタイトル</td><td align="left"></td></tr><tr><td align="left">date</td><td align="left">記事のタイトル</td><td align="left">存在しない場合下書きになる</td></tr><tr><td align="left">categories</td><td align="left">カテゴリ</td><td align="left"></td></tr><tr><td align="left">tags</td><td align="left">タグ</td><td align="left"></td></tr><tr><td align="left">top</td><td align="left">トップ固定</td><td align="left"></td></tr></tbody></table><h3><span id="内容">内容</span></h3><p>直前の記述が概要として扱われる</p><pre><code>&lt;!-- more --&gt;</code></pre><h2><span id="プラグイン">プラグイン</span></h2><h3><span id="hexo-toc">hexo-toc</span></h3><p>h2-h6タグを抽出し目次を自動生成してくれる</p><p>導入</p><pre><code>$ npm install hexo-toc --save</code></pre><p>利用</p><pre><code class="bash"></code></pre><h2><span id="makefile">Makefile</span></h2><p>便利なコマンドまとめました</p><pre><code>$ vi Makefile---up:    hexo serverclean:    hexo clean    hexo generatedeploy:    hexo deploy -g</code></pre><p>サーバー起動</p><pre><code>$ make up</code></pre><p>クリア</p><pre><code>$ make clean</code></pre><p>デプロイ</p><pre><code>$ make deploy</code></pre>]]></content>
     
     
-      
-      
-    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a href=&quot;#概要&quot; class=&quot;headerlink&quot; title=&quot;概要&quot;&gt;&lt;/a&gt;概要&lt;/h2&gt;&lt;p&gt;本ブログで利用しているテンプレートエンジン &lt;code&gt;hexo&lt;/code&gt; の書き方メモ&lt;/p&gt;
-&lt;h2 id=&quot;コマンド&quot;&gt;&lt;a hr</summary>
-      
+    <summary type="html">&lt;h2 id=&quot;概要&quot;&gt;&lt;a href=&quot;#概要&quot; class=&quot;headerlink&quot; title=&quot;概要&quot;&gt;&lt;/a&gt;概要&lt;/h2&gt;&lt;p&gt;本ブログで利用しているテンプレートエンジン &lt;strong&gt;hexo&lt;/strong&gt; の書き方メモ&lt;/p&gt;</summary>
     
     
     
@@ -40,6 +36,37 @@
     <category term="hexo" scheme="http://example.com/tags/hexo/"/>
     
     <category term="ブログ" scheme="http://example.com/tags/%E3%83%96%E3%83%AD%E3%82%B0/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexoチートシート</title>
+    <link href="http://example.com/2021/07/06/hexo/"/>
+    <id>http://example.com/2021/07/06/hexo/</id>
+    <published>2021-07-06T12:00:00.000Z</published>
+    <updated>2021-07-07T00:00:55.336Z</updated>
+    
+    <content type="html"><![CDATA[<h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code>$ hexo clean</code></pre><p>ファイル生成</p><pre><code>$ hexo generate</code></pre><p>サーバー起動</p><pre><code>$ hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>$ hexo deploy -g</code></pre><p>記事作成</p><pre><code>hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code>$ make up</code></pre><p>クリア</p><pre><code>$ make clean</code></pre><p>デプロイ</p><pre><code>$ make deploy</code></pre>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2&gt;&lt;span id=&quot;コマンド&quot;&gt;コマンド&lt;/span&gt;&lt;/h2&gt;&lt;p&gt;クリーン&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo clean
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;ファイル生成&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;$ hexo generate
+&lt;/code&gt;&lt;/pre&gt;</summary>
+      
+    
+    
+    
+    <category term="CheatSheet" scheme="http://example.com/categories/CheatSheet/"/>
+    
+    
+    <category term="hexo" scheme="http://example.com/tags/hexo/"/>
+    
+    <category term="チートシート" scheme="http://example.com/tags/%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
     
   </entry>
   
