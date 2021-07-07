@@ -47,32 +47,6 @@
   </entry>
   
   <entry>
-    <title>FIRST CDJ MIX</title>
-    <link href="http://example.com/2021/20210707_mix001/"/>
-    <id>http://example.com/2021/20210707_mix001/</id>
-    <published>2021-07-07T01:42:12.000Z</published>
-    <updated>2021-07-07T04:40:35.737Z</updated>
-    
-    <content type="html"><![CDATA[<iframe width="100%" height="400" src="https://www.mixcloud.com/widget/iframe/?feed=%2Ftempa%2Ffirst-cd-mix%2F" frameborder="0"></iframe><p>過去作</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;iframe width=&quot;100%&quot; height=&quot;400&quot; src=&quot;https://www.mixcloud.com/widget/iframe/?feed=%2Ftempa%2Ffirst-cd-mix%2F&quot; frameborder=&quot;0&quot;&gt;&lt;/iframe&gt;
-
-&lt;</summary>
-      
-    
-    
-    
-    <category term="作業用BGM" scheme="http://example.com/categories/%E4%BD%9C%E6%A5%AD%E7%94%A8BGM/"/>
-    
-    
-    <category term="mixcloud" scheme="http://example.com/tags/mixcloud/"/>
-    
-  </entry>
-  
-  <entry>
     <title>hexo使い方</title>
     <link href="http://example.com/2021/20210707_hexo%E6%9B%B8%E3%81%8D%E6%96%B9/"/>
     <id>http://example.com/2021/20210707_hexo%E6%9B%B8%E3%81%8D%E6%96%B9/</id>
@@ -100,7 +74,7 @@
     <link href="http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
     <id>http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-06T11:00:00.000Z</published>
-    <updated>2021-07-07T04:44:19.138Z</updated>
+    <updated>2021-07-07T07:19:29.888Z</updated>
     
     <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code class="bash">hexo clean</code></pre><p>ファイル生成</p><pre><code class="bash">hexo generate</code></pre><p>サーバー起動</p><pre><code class="bash">hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code class="bash">hexo deploy -g</code></pre><p>記事作成</p><pre><code class="bash">hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code class="bash">make up</code></pre><p>クリア</p><pre><code class="bash">make clean</code></pre><p>デプロイ</p><pre><code class="bash">make deploy</code></pre>]]></content>
     
