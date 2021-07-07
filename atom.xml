@@ -41,10 +41,10 @@
   
   <entry>
     <title>hexoチートシート</title>
-    <link href="http://example.com/2021/07/06/hexo/"/>
-    <id>http://example.com/2021/07/06/hexo/</id>
+    <link href="http://example.com/2021/07/06/hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
+    <id>http://example.com/2021/07/06/hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-06T11:00:00.000Z</published>
-    <updated>2021-07-07T00:14:53.446Z</updated>
+    <updated>2021-07-07T00:57:39.641Z</updated>
     
     <content type="html"><![CDATA[<h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code>$ hexo clean</code></pre><p>ファイル生成</p><pre><code>$ hexo generate</code></pre><p>サーバー起動</p><pre><code>$ hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code>$ hexo deploy -g</code></pre><p>記事作成</p><pre><code>hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code>$ make up</code></pre><p>クリア</p><pre><code>$ make clean</code></pre><p>デプロイ</p><pre><code>$ make deploy</code></pre>]]></content>
     
