@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-07-07T04:43:59.423Z</updated>
+  <updated>2021-07-28T03:06:49.572Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,9 +21,9 @@
     <link href="http://example.com/2021/20210706_Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
     <id>http://example.com/2021/20210706_Laravel%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-07T11:00:00.000Z</published>
-    <updated>2021-07-07T04:43:59.423Z</updated>
+    <updated>2021-07-28T03:06:49.572Z</updated>
     
-    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E5%89%8D%E6%8F%90">前提</a></li><li><a href="#artisan%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">artisanコマンド</a><ul><li><a href="#make">make</a></li><li><a href="#migrate">migrate</a></li><li><a href="#db">db</a></li><li><a href="#clear">clear</a></li></ul></li></ul><!-- tocstop --><h2><span id="前提">前提</span></h2><p>Laravel8系</p><h2><span id="artisanコマンド">artisanコマンド</span></h2><h3><span id="make">make</span></h3><p>migration作成</p><pre><code class="bash">php artisan make:migration create_[テーブル名]_table</code></pre><p>メール作成</p><pre><code class="bash">php artisan make:mail [クラス名]</code></pre><p>middleware作成</p><pre><code class="bash">php artisan make:middleware SetUserCookie</code></pre><h3><span id="migrate">migrate</span></h3><p>マイグレーション実行</p><pre><code class="bash">php artisan migrate</code></pre><p>マイグレーションロールバック</p><pre><code class="bash">php artisan migrate:rollback</code></pre><h3><span id="db">db</span></h3><p>シード実行</p><pre><code class="bash">php artisan db:seed</code></pre><h3><span id="clear">clear</span></h3><p>キャッシュクリア</p><pre><code class="bash">php artisan cache:clearphp artisan config:clear</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E5%89%8D%E6%8F%90">前提</a></li><li><a href="#artisan%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">artisanコマンド</a><ul><li><a href="#make">make</a></li><li><a href="#migrate">migrate</a></li><li><a href="#db">db</a></li><li><a href="#clear">clear</a></li><li><a href="#publish">publish</a></li></ul></li></ul><!-- tocstop --><h2><span id="前提">前提</span></h2><p>Laravel8系</p><h2><span id="artisanコマンド">artisanコマンド</span></h2><h3><span id="make">make</span></h3><p>migration作成</p><pre><code class="bash">php artisan make:migration create_[テーブル名]_table</code></pre><p>メール作成</p><pre><code class="bash">php artisan make:mail [クラス名]</code></pre><p>middleware作成</p><pre><code class="bash">php artisan make:middleware SetUserCookie</code></pre><p>Model作成　-mでマイグレーションファイルも</p><pre><code class="bash">php artisan make:model Post -m</code></pre><p>中間テーブル<br>テーブル名を並べる</p><pre><code>php artisan make:migration create_book_tag_table</code></pre><p>enum作成(laravel-enum)</p><pre><code class="bash">php artisan make:enum AdminType</code></pre><h3><span id="migrate">migrate</span></h3><p>マイグレーション実行</p><pre><code class="bash">php artisan migrate</code></pre><p>マイグレーションロールバック</p><pre><code class="bash">php artisan migrate:rollback</code></pre><h3><span id="db">db</span></h3><p>シード実行</p><pre><code class="bash">php artisan db:seed</code></pre><h3><span id="clear">clear</span></h3><p>キャッシュクリア</p><pre><code class="bash">php artisan cache:clearphp artisan config:clear</code></pre><h3><span id="publish">publish</span></h3><p>pagination</p><pre><code class="bash">php artisan vendor:publish --tag=laravel-pagination</code></pre>]]></content>
     
     
       
@@ -74,9 +74,9 @@
     <link href="http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/"/>
     <id>http://example.com/2021/20210706_hexo%E3%83%81%E3%83%BC%E3%83%88%E3%82%B7%E3%83%BC%E3%83%88/</id>
     <published>2021-07-06T11:00:00.000Z</published>
-    <updated>2021-07-07T07:19:29.888Z</updated>
+    <updated>2021-07-08T23:56:03.926Z</updated>
     
-    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code class="bash">hexo clean</code></pre><p>ファイル生成</p><pre><code class="bash">hexo generate</code></pre><p>サーバー起動</p><pre><code class="bash">hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code class="bash">hexo deploy -g</code></pre><p>記事作成</p><pre><code class="bash">hexo new &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code class="bash">make up</code></pre><p>クリア</p><pre><code class="bash">make clean</code></pre><p>デプロイ</p><pre><code class="bash">make deploy</code></pre>]]></content>
+    <content type="html"><![CDATA[<h2><span id="目次">目次</span></h2><!-- toc --><ul><li><a href="#%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89">コマンド</a></li><li><a href="#makefile">Makefile</a></li></ul><!-- tocstop --><h2><span id="コマンド">コマンド</span></h2><p>クリーン</p><pre><code class="bash">hexo clean</code></pre><p>ファイル生成</p><pre><code class="bash">hexo generate</code></pre><p>サーバー起動</p><pre><code class="bash">hexo server</code></pre><p>Github Pagesデプロイ</p><pre><code class="bash">hexo deploy -g</code></pre><p>記事作成</p><pre><code class="bash">hexo new &lt;title&gt;</code></pre><p>下書き作成</p><pre><code class="bash">hexo new draft &lt;title&gt;</code></pre><h2><span id="makefile">Makefile</span></h2><p>サーバー起動</p><pre><code class="bash">make up</code></pre><p>クリア</p><pre><code class="bash">make clean</code></pre><p>デプロイ</p><pre><code class="bash">make deploy</code></pre>]]></content>
     
     
       
